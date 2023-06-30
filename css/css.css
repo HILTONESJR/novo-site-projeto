@@ -1,0 +1,196 @@
+
+* {
+    margin-top: 0;
+}
+body {
+    padding-top: 90px;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    margin-top: 0;
+    
+  }
+.loc-top {
+    position: relative;
+    height: 100px;
+    background-color: black;
+    
+}
+.loc-top img {
+    position: relative;
+    filter: invert(100%);
+    width: 30px;
+    height: 30px;
+    margin-left: 1rem;
+}
+.end-top {
+    margin-left: 1rem;
+    text-decoration: none;
+    color: white;
+}
+.tell-top {
+    margin-left: 1rem;
+    text-decoration: none;
+    color: white;
+}
+.emaill-top {
+    margin-left: 1rem;
+    text-decoration: none;
+    color: white;
+}
+
+#face-top {
+    margin-left: 300px;
+    filter: invert(100%);
+}
+#insta-top {
+    margin-left: 1rem;
+    filter: invert(100%);
+}
+#face-top img {
+      filter: invert(100%);
+}
+#insta-top img {
+    filter: invert(100%);
+}
+
+h2 {
+    text-align: center;
+    margin-top: 30px;
+}
+
+.quem-somos p {
+    text-align: center;
+    margin-top: 30px;
+}
+
+h3 {
+    text-align: left;
+    margin-top: 5%;
+}
+.row p {
+    text-align: left;
+    margin-top: 5%;
+}
+
+#imge-historia {
+    width: 400px;
+    height: 400px;
+    padding: 0%;
+    border-radius: 1rem;
+    margin-left: 20%;
+
+}
+
+col-md-4#col-m4 {
+    width: 40px;
+    height: 40px;
+    opacity: 50%;
+   
+}
+.row .col-md-4 {
+    background-color: rgb(85, 136, 170);
+    width: 280px;
+    height: 500px;
+    margin-left: 5%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    text-align: center;
+    border-radius: 0.5rem;
+    box-sizing: border-box;
+        
+}
+.row#transp-fundo {
+    width: 100%;
+    height: auto;
+    background-image: url(../img/cidade_de_san_diego.jpg);
+    position: relative;
+    
+    
+}
+
+#transp-fundo h4 {
+    margin-top: 30px;
+    margin-left: 5%;
+    color: rgb(26, 176, 179);
+}
+#transp-fundo h5 {
+    font-size: 40px;
+    font-weight: bold;
+    margin-left: 5%;
+    color: white;
+}
+.col-md-4 h1 {
+    background-color: black;
+    color: white;
+    border-radius: 2rem;
+    margin-left: -20%;
+    font-size: 24px;
+    width: 180px;
+    
+}
+.col-md-4 h2 {
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    border-radius: 2rem;
+    margin-left: 40%;
+    font-size: 24px;
+    width: 180px;
+    
+}
+
+.col-md-4 a.saiba-m1 {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #ccc;
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 16px;
+    border-radius: 2rem;
+}
+
+  .menu {
+    background-color: black;
+    padding: 10px;
+    color: white;
+  }
+
+  .logo {
+    width: 200px;
+    height: 100px;
+    font-size: 40px;
+    font-weight: bold;
+    color: white;
+    
+  }
+
+  .content {
+    flex: 1;
+    padding: 20px 0;
+  }
+
+  .footer {
+    background-color: black;
+    padding: 10px;
+    color: white;
+    text-align: center;
+  }
+
+.footer-list {
+list-style: none;
+display: flex;
+flex-wrap: wrap;
+justify-content: flex-start;
+align-items: flex-start;
+gap: 20px;
+padding: 0;
+max-width: 600px; /* Adjust the max-width as per your preference */
+margin: 0 auto;
+text-align: left;
+font-size: 20px;
+}
+
+.footer-list li {
+width: calc(50% - 10px); /* Adjust the width as per your preference */
+}
