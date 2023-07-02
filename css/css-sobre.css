@@ -8,6 +8,8 @@
 .row-sobre {
     width: 100%;
     height: 800px;
+    display: grid;
+    display: table-column 1fr 1fr 1fr;
     background-color: rgb(224, 213, 235);
     display: flex;
     justify-content: center;
