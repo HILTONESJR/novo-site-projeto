@@ -2,38 +2,98 @@
 * {
     margin-top: 0;
 }
+
+header {
+	width: 100%;
+	height: 200px;
+	background-color: black;
+	z-index: 2;
+    position: relative;
+}
+.loc-top {
+    display: block;
+  }
+  
+  .hide-loc-top {
+    display: none;
+  }
+header .container {
+	position: relative;
+}
+header .header-black {
+	background-color: #000;
+	height: 40px;
+}
+
+header #logotipo {
+	position: absolute;
+	top: 50px;
+	z-index: 3;
+    width: 200px;
+    height: 100px;
+}
+
+#menu ul {
+    margin-left: 20%;
+    margin-top: 4%;
+    
+}
+#menu li {
+    margin-left: 30px;
+        display: inline-block;
+        margin-right: 10px;
+        
+}
+
+.menu a {
+    color: #fff;
+    text-decoration: none;
+    cursor: pointer;
+    transition: 0.2s ease-in-out;
+       
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
 body {
-    padding-top: 90px;
     display: flex;
     flex-direction: column;
     min-height: 100vh;
     margin-top: 0;
-    
+     
   }
-.loc-top {
-    position: relative;
-    height: 100px;
-    background-color: black;
-    
-}
-.loc-top img {
-    position: relative;
+
+img#loctop {
     filter: invert(100%);
+    margin-left: 3%;
     width: 30px;
     height: 30px;
-    margin-left: 1rem;
 }
-.end-top {
+
+img#tel-top {
+    filter: invert(100%);
+    padding: 10px;
+}
+    
+img#email-top {
+    filter: invert(100%);
+    padding: 10px;
+}
+
+.header-black .end-top {
     margin-left: 1rem;
     text-decoration: none;
     color: white;
 }
-.tell-top {
+.header-black .tell-top {
     margin-left: 1rem;
     text-decoration: none;
     color: white;
 }
-.emaill-top {
+.header-black .emaill-top {
     margin-left: 1rem;
     text-decoration: none;
     color: white;
@@ -79,6 +139,7 @@ h3 {
     padding: 0%;
     border-radius: 1rem;
     margin-left: 20%;
+    margin-bottom: 5%;
 
 }
 
@@ -89,7 +150,7 @@ col-md-4#col-m4 {
    
 }
 .row .col-md-4 {
-    background-color: rgb(85, 136, 170);
+    background-color: #A4B6C5;
     width: 280px;
     height: 500px;
     margin-left: 5%;
@@ -98,6 +159,7 @@ col-md-4#col-m4 {
     text-align: center;
     border-radius: 0.5rem;
     box-sizing: border-box;
+    overflow: hidden;
         
 }
 .row#transp-fundo {
@@ -106,6 +168,9 @@ col-md-4#col-m4 {
     background-image: url(../img/cidade_de_san_diego.jpg);
     position: relative;
     
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
     
 }
 
@@ -150,47 +215,118 @@ col-md-4#col-m4 {
     border-radius: 2rem;
 }
 
-  .menu {
-    background-color: black;
-    padding: 10px;
-    color: white;
-  }
-
-  .logo {
-    width: 200px;
-    height: 100px;
-    font-size: 40px;
-    font-weight: bold;
-    color: white;
-    
-  }
-
   .content {
     flex: 1;
     padding: 20px 0;
   }
 
   .footer {
-    background-color: black;
-    padding: 10px;
+    background-color: #000000;
+    padding: 0px 0;
     color: white;
+  }
+  
+  .footer img {
+    max-width: 100%;
+    margin-top: 60px;
+  }
+  
+  .footer .col-md-3 {
+    display: inline-block;
+    vertical-align: top;
+    margin-bottom: 20px;
+  }
+  
+  .footer .address,
+  .footer .contact {
+    margin-bottom: 20px;
+  }
+  
+  .footer h5 {
+    font-size: 16px;
+    margin-bottom: 10px;
+  }
+  
+  .footer a {
+    color: #ffffff;
+  }
+  
+  .footer .footer-list li {
+    list-style: none;
+    margin-bottom: 10px;
+  }
+  
+  .footer .rodape {
     text-align: center;
+    margin-top: 30px;
+  }
+  
+  .footer .rodape p {
+    font-size: 14px;
+    color: #777;
+
   }
 
-.footer-list {
-list-style: none;
-display: flex;
-flex-wrap: wrap;
-justify-content: flex-start;
-align-items: flex-start;
-gap: 20px;
-padding: 0;
-max-width: 600px; /* Adjust the max-width as per your preference */
-margin: 0 auto;
-text-align: left;
-font-size: 20px;
+  .footer .col-md-6 {
+    display: inline-block;
+  }
+#end-footer {
+    width: 500px;
+    height: 300px;
+    justify-content: space-between;
+    text-align: left;
+    
+}
+#logo-footer {
+    width: 500px;
+    height: 300px;
+    
+}
+#logo-footer img {
+    margin-left:15%;
+    width: 300px;
+    height: 140px;
+    
+}
+#links-footer {
+    width: 500px;
+    height: 300px;
+    
+}
+#links-footer {
+    margin-top: 10px;
+    width: 180px;
+    height: 300px;
+    display: inline-block;
+    
+}
+#rede-sociais {
+    margin-top: 10px;
+    width: 180px;
+    height: 300px;
+    vertical-align: top;
+    
+}
+img#loctop {
+    margin-top: 10px;
+    margin-left: 1px;
+}
+h5 {
+    margin-top: 30px;
+    font-size: 24px;
+    font-weight: bold;
 }
 
-.footer-list li {
-width: calc(50% - 10px); /* Adjust the width as per your preference */
+.contact img {
+    margin-top: 10px;
+    filter: invert(100%);
+}
+.contact a {
+    margin-top: 12px;
+    font-size: 18px;
+}
+#rede-sociais img {
+    filter: invert(100%);
+    margin-top: 10px;
+
 }
