@@ -29,8 +29,8 @@ header #logotipo {
 	position: absolute;
 	top: 50px;
 	z-index: 3;
-    width: 200px;
-    height: 100px;
+    width: 100px;
+    height: 50px;
 }
 
 #menu ul {
