@@ -14,7 +14,8 @@
     display: table-column 1fr 1fr 1fr;
     background-color: rgb(224, 213, 235);
     display: flex;
-    justify-content: center;  
+    justify-content: center;
+    justify-content: space-around;
     
 
 }
