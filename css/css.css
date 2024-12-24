@@ -265,17 +265,17 @@ col-md-4#col-m4 {
     color: #ffffff;
   }
   
-  .footer .footer-list li {
+  .footer-list li {
     list-style: none;
     margin-bottom: 10px;
   }
   
-  .footer .rodape {
+  .rodape {
     text-align: center;
     margin-top: 30px;
   }
   
-  .footer .rodape p {
+  .rodape p {
     font-size: 14px;
     color: #777;
 
