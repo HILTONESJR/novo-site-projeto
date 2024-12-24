@@ -183,12 +183,12 @@ col-md-4#col-m4 {
     justify-content: space-around;
 }
 
-#transp-fundo h4 {
+.row-title h4 {
     margin-top: 30px;
     margin-left: 5%;
     color: rgb(26, 176, 179);
 }
-#transp-fundo h5 {
+.row-title h5 {
     font-size: 40px;
     font-weight: bold;
     margin-left: 5%;
