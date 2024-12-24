@@ -165,6 +165,9 @@ col-md-4#col-m4 {
 	display: flex;
 	justify-content: space-around;
 }
+.row-title{
+    width: 100%
+}
 .row .col-md-4 {
     background-color: #A4B6C5;
     width: 280px;
