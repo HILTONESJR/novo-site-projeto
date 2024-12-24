@@ -153,6 +153,10 @@ col-md-4#col-m4 {
     opacity: 50%;
    
 }
+.row {
+	display: flex;
+	justify-content: space-between;
+}
 .row .col-md-4 {
     background-color: #A4B6C5;
     width: 280px;
