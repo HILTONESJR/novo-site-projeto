@@ -155,7 +155,7 @@ col-md-4#col-m4 {
 }
 .row {
 	display: flex;
-	justify-content: space-between;
+	justify-content: space-around;
 }
 .row .col-md-4 {
     background-color: #A4B6C5;
