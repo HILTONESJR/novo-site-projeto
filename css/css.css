@@ -190,12 +190,14 @@ col-md-4#col-m4 {
     margin-top: 30px;
     margin-left: 5%;
     color: rgb(26, 176, 179);
+    padding: 0;
 }
 .row-title h5 {
     font-size: 40px;
     font-weight: bold;
     margin-left: 5%;
     color: white;
+    padding: 0;
 }
 .col-md-4 h1 {
     background-color: black;
