@@ -234,18 +234,18 @@ col-md-4#col-m4 {
     padding: 20px 0;
   }
 
-  .footer {
+footer {
     background-color: #000000;
     padding: 0px 0;
     color: white;
   }
   
-  .footer img {
+footer img {
     max-width: 100%;
     margin-top: 60px;
   }
   
-  .footer .col-md-3 {
+footer .col-md-3 {
     display: inline-block;
     vertical-align: top;
     margin-bottom: 20px;
@@ -256,12 +256,12 @@ col-md-4#col-m4 {
     margin-bottom: 20px;
   }
   
-  .footer h5 {
+footer h5 {
     font-size: 16px;
     margin-bottom: 10px;
   }
   
-  .footer a {
+footer a {
     color: #ffffff;
   }
   
@@ -281,7 +281,7 @@ col-md-4#col-m4 {
 
   }
 
-  .footer .col-md-6 {
+footer .col-md-6 {
     display: inline-block;
   }
 #end-footer {
